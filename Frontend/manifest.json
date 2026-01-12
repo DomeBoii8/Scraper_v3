@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "com.weebcoders.ai_scraper",
+  "version": "8.0",
+  "description": "AI Web Scraper with Native Messaging",
+
+  "permissions": [
+    "activeTab",
+    "nativeMessaging"
+  ],
+
+  "host_permissions": [
+    "<all_urls>"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

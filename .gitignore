@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+test_env/
+
+# Generated exports
+exports/
+
+# IDE metadata
+.idea/
+.vscode/
