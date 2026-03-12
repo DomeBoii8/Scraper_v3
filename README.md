@@ -1,4 +1,7 @@
 This is LLM based Web scraper created for Samsung PRISM Web Agent Hackathon along with my team (WeebCoders)
+Team members:
+1. Aditya Prashanth (Domeboii8)
+2. Nihal BM (nihal-bm06)
 This is the final repo which was not updated on the Repo provided by Samsung.
 
 Keeping that aside this project was an eye-opener to various practices of coding such as modularization of code, LLM fine tuning via prompt engineering and more.
